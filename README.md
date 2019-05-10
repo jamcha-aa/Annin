@@ -1,6 +1,6 @@
 # Annin
 
-[{https://jamcha-aa.github.io/Annin}]
+https://jamcha-aa.github.io/Annin
 
 Annin (杏仁) is a simple editor made with [mavonEditor](https://github.com/hinesboy/mavonEditor/). 
 
