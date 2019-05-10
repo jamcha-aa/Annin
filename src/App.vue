@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <mavon-editor style="height: 100%" @save="save(content)" v-model="value" language="ja" :toolbars="toolbars" />
+    <mavon-editor style="height: 100%" @save="save" v-model="value" language="ja" :toolbars="toolbars" />
  </div>
 </template>
 
@@ -9,7 +9,6 @@ export default {
   name: 'Annin',
   data() {
     return {
-      content: '',
       value: '',
       toolbars: {
       bold: false, // 粗体
@@ -47,9 +46,21 @@ export default {
       preview: false, // 预览
       }
     }
+  },
+  methods: {
+    save: function () {
+      this.download('md')
+    },
+    download: function () {
+      var blob = new Blob([ this.value ], {'type': 'text/plain'})
+      let link = document.createElement('a')
+      link.href = window.URL.createObjectURL(blob)
+      link.download = 'markdown.md'
+      link.click()
+    }
   }
 }
-  </script>
+</script>
   
 <style>
 #app {
