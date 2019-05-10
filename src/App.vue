@@ -49,9 +49,6 @@ export default {
   },
   methods: {
     save: function () {
-      this.download('md')
-    },
-    download: function () {
       var blob = new Blob([ this.value ], {'type': 'text/plain'})
       let link = document.createElement('a')
       link.href = window.URL.createObjectURL(blob)
