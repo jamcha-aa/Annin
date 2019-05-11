@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <mavon-editor style="height: 100%" @save="save" v-model="value" language="ja" :toolbars="toolbars" />
+    <mavon-editor style="height: 100%" @save="save" v-model="value" language="ja" :toolbars="toolbars" defaultOpen="edit" :subfield=false />
  </div>
 </template>
 
