@@ -5,6 +5,7 @@
 </template>
 
 <script>
+import moment from 'moment';
 export default {
   name: 'Annin',
   data() {
@@ -52,7 +53,7 @@ export default {
       var blob = new Blob([ this.value ], {'type': 'text/plain'})
       let link = document.createElement('a')
       link.href = window.URL.createObjectURL(blob)
-      link.download = 'markdown.md'
+      link.download = moment(new Date).format('YYYY-MM-DD-HH-mm-ss') + '.md'
       link.click()
     }
   }
