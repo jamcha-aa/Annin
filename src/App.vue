@@ -1,7 +1,14 @@
 <template>
   <div id="app">
+    <div id="cc">
+    <p align="right">
+      {{ value.length }}
+    </p>
+    </div>
+    <div id="editor">
     <mavon-editor style="height: 100%" @save="save" v-model="value" language="ja" :toolbars="toolbars" defaultOpen="edit" :subfield=false />
- </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -61,16 +68,21 @@ export default {
 </script>
   
 <style>
-#app {
+#editor {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin: auto;
-  margin-top: 80px;
+  margin-top: 40px;
   width: 740px;
   height: 500px;
+},
+#cc {
+   position:absolute;
+   top:0;
+   right:0;
 }
 </style>
 
