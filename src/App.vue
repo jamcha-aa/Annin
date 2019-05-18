@@ -75,7 +75,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 80px;
   width: 740px;
   height: 500px;
 },
