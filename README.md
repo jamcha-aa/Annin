@@ -6,7 +6,7 @@ Annin (杏仁) is a simple editor made with [mavonEditor](https://github.com/hin
 
 Annin supports Markdown format and its preview.
 
-Annin does not collect any data. When you finish writing, click "save" icon. Then texts are downloaded as `2019-05-01-00-00-00.md`.
+Annin does not collect any data. Everytime you click "save" icon or `Ctrl + s`, texts are downloaded as `2019-05-01-00-00-00.md`.
 
 The window of Annin is fixed with 740 x 500 for my chromebook (its resolution is only 1366 x 768).
 
