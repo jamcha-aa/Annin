@@ -2,7 +2,7 @@
   <div id="app">
     <div id="cc">
     <p> {{ value.length }} </p>
-	<text-reader @load="value = $event"></text-reader>
+    <text-reader @load="value = $event"></text-reader>
     </div>
     <div id="editor">
     <mavon-editor style="height: 100%" @save="save" v-model="value" language="ja" :toolbars="toolbars" defaultOpen="edit" :subfield=false />
