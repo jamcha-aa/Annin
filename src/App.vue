@@ -1,9 +1,7 @@
 <template>
   <div id="app">
     <div id="cc">
-    <p align="right">
-      {{ value.length }}
-    </p>
+    <p> {{ value.length }} </p>
     </div>
     <div id="editor">
     <mavon-editor style="height: 100%" @save="save" v-model="value" language="ja" :toolbars="toolbars" defaultOpen="edit" :subfield=false />
@@ -78,11 +76,12 @@ export default {
   margin-top: 80px;
   width: 740px;
   height: 500px;
-},
+}
 #cc {
-   position:absolute;
-   top:0;
-   right:0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #b3b3b3;
 }
 </style>
 
