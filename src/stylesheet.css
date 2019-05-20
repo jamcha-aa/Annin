@@ -1,0 +1,4 @@
+/* :set content.user_stylesheets '/home/user/stylesheet.css'  */
+:not(pre):not(code) {
+    font-family: "Noto Sans JP" !important;
+}
