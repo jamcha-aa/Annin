@@ -2,13 +2,15 @@
 
 https://jamcha-aa.github.io/Annin
 
-Annin (杏仁) is a simple editor made with [mavonEditor](https://github.com/hinesboy/mavonEditor/). 
+Annin (杏仁) is a simple online editor made with [mavonEditor](https://github.com/hinesboy/mavonEditor/). 
 
 Annin supports Markdown format and its preview.
 
-This application does not collect any data. Everytime you click "save" icon or `Ctrl + s`, texts are downloaded as `2019-05-01-00-00-00.md`.
+This editor does not collect or store any data. Everytime you click "save" icon or `Ctrl + s`, texts are downloaded as `2019-05-01-00-00-00.md`.
 
 The window of Annin is fixed with 740 x 500 for my chromebook (its resolution is only 1366 x 768).
+
+If you want "find & replace," use [Find & Replace for Text Editing](https://find-and-replace-f6588.firebaseapp.com/) extension.
 
 ### Reference
 - [mavonEditor](https://github.com/hinesboy/mavonEditor/)
