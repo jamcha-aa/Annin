@@ -10,7 +10,7 @@ This editor does not collect or store any data. Everytime you click "save" icon 
 
 The window of Annin is fixed with 740 x 500 for my chromebook (its resolution is only 1366 x 768).
 
-If you want "find & replace," use [Find & Replace for Text Editing](https://find-and-replace-f6588.firebaseapp.com/) extension.
+[Find & Replace for Text Editing](https://find-and-replace-f6588.firebaseapp.com/) extension may help for editing.
 
 ### Reference
 - [mavonEditor](https://github.com/hinesboy/mavonEditor/)
