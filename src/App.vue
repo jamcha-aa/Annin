@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <div id="cc">
-    <p> {{ value.length }} </p>
+    <p> {{ value.length }} / {{ value.trim().split(/\s+/).length }} </p>
     <text-reader @load="value = $event"></text-reader>
     </div>
     <div id="editor">
-    <mavon-editor style="height: 100%" @save="save" v-model="value" language="ja" :toolbars="toolbars" defaultOpen="edit" :subfield=false />
+    <mavon-editor style="height: 100%" @save="save" v-model="value" language="en" :toolbars="toolbars" placeholder="編集を始てね！" defaultOpen="edit" :subfield=false />
     </div>
   </div>
 </template>
