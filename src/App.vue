@@ -57,11 +57,14 @@ export default {
   },
   methods: {
     save: function () {
-      var blob = new Blob([ this.value ], {'type': 'text/plain'})
-      let link = document.createElement('a')
-      link.href = window.URL.createObjectURL(blob)
-      link.download = moment(new Date).format('YYYY-MM-DD-HH-mm-ss') + '.md'
-      link.click()
+      var blob = new Blob([ this.value ], {'type': 'text/plain'});
+      let link = document.createElement('a');
+      link.href = window.URL.createObjectURL(blob);
+      link.download = moment(new Date).format('YYYY-MM-DD-HH-mm-ss') + '.md';
+      link.click();
+      setTimeout(function(){
+        window.URL.revokeObjectURL(link);  
+      }, 100);  
     }
   },
   components: {
