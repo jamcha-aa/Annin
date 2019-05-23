@@ -1,6 +1,6 @@
 {
-  "name": "writer",
-  "version": "0.1.0",
+  "name": "Annin",
+  "version": "2019.05.24",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

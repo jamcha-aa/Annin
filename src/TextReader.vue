@@ -1,3 +1,11 @@
+<!-- 
+ Original source: https://alligator.io/vuejs/file-reader-component/
+ Original author: Alex Jover Morales (https://alligator.io/author/alex-jover-morales)
+ Modified by jamcha (https://github.com/jamcha-aa)
+ (c) 2018 Alex Jover Morales, (c) 2019 Alligator.io., (c) 2019 jamcha.
+ License: MIT License
+-->
+
 <template>
   <label class="text-reader">
     🗁

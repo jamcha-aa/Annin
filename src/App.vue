@@ -1,3 +1,10 @@
+<!-- 
+ Author: jamcha <https://github.com/jamcha-aa/Annin>
+ Original author of "save" function is fukami (https://codepen.io/fffkm/pen/NLxbYV)
+ (c) 2018 fukami, (c) 2019 jamcha.
+ License: MIT License
+-->
+
 <template>
   <div id="app">
     <div id="cc">
@@ -62,9 +69,7 @@ export default {
       link.href = window.URL.createObjectURL(blob);
       link.download = moment(new Date).format('YYYY-MM-DD-HH-mm-ss') + '.md';
       link.click();
-      setTimeout(function(){
-        window.URL.revokeObjectURL(link);  
-      }, 100);  
+      window.URL.revokeObjectURL(link);
     }
   },
   components: {
