@@ -2,9 +2,9 @@
     <a href="https://jamcha-aa.github.io/Annin"><img src="./canvas.png" alt="top-image"></a>
 </p>
 
-<p align="center">
+<h3 align="center">
     <a href="https://jamcha-aa.github.io/Annin">📝 Start</a>
-</p>
+</h3>
 
 <br>
 <br>
@@ -23,7 +23,7 @@ Annin (杏仁) is a simple online editor made with [mavonEditor](https://github.
 ### Misc
 - The window of Annin is fixed with 740 x 500 for my chromebook (its resolution is only 1366 x 768).
 - [Find & Replace for Text Editing](https://find-and-replace-f6588.firebaseapp.com/) extension may help for editing.
-- "編集を始てね！" means "Let's write!" with cheerful emotion.
+- "編集を始てね！ (Henshu-o-Shitene)" means "Let's write!" with cheerful emotion.
 
 ### Reference
 - [mavonEditor](https://github.com/hinesboy/mavonEditor/)
