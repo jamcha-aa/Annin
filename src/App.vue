@@ -7,11 +7,13 @@
 
 <template>
   <div id="app">
-    <div id="cc">
+    <div class="block" v-drag>
+    <div class="grabbable" id="cc">
     <p> {{ value.length }} / {{ value.trim().split(/\s+/).length }} </p>
     </div>
     <div id="fr">
     <text-reader @load="value = $event"></text-reader>
+    </div>
     </div>
     <div id="editor">
     <mavon-editor style="height: 100%" @save="save" v-model="value" language="en" :toolbars="toolbars" placeholder="編集を始てね！" defaultOpen="edit" :subfield=false />
@@ -22,6 +24,7 @@
 <script>
 import moment from 'moment';
 import TextReader from "./TextReader";
+import drag from '@branu-jp/v-drag';
 export default {
   name: 'Annin',
   data() {
@@ -76,11 +79,14 @@ export default {
   },
   components: {
     TextReader
+  },
+  directives: {
+    drag
   }
 }
 </script>
   
-<style>
+<style scoped>
 #editor {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -92,17 +98,38 @@ export default {
   width: 740px;
   height: 500px;
 }
+#cc {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  color: #b3b3b3;
+}
 #fr {
   position: absolute;
   top: 50px;
   right: 10px;
   color: #b3b3b3;
 }
-#cc {
+.block {
   position: absolute;
-  top: 0px;
-  right: 10px;
-  color: #b3b3b3;
+  height: 100px;
+  width: 150px;
+  top: 10px;
+  left: 1206px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grabbable {
+    cursor: move;
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+.grabbable:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
 }
 </style>
 

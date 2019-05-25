@@ -9,7 +9,7 @@
 <template>
   <label class="text-reader">
     🗁
-    <input type="file" @change="loadTextFromFile">
+    <input type="file" @change="loadTextFromFile" id="reader">
   </label>
 </template>
 
@@ -28,10 +28,13 @@ export default {
 </script>
 
 <style>
+.text-reader {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
 .text-reader input {
   position: absolute;
-  top: 0;
-  right: 0;
   z-index: -1;
   opacity: 0;
 }
