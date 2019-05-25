@@ -115,7 +115,7 @@ export default {
   height: 100px;
   width: 150px;
   top: 10px;
-  left: 1206px;
+  right: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
