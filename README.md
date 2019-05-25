@@ -2,14 +2,14 @@
     <a href="https://jamcha-aa.github.io/Annin"><img src="./canvas.png" alt="top-image"></a>
 </p>
 
-<h3 align="center">
-    <a href="https://jamcha-aa.github.io/Annin">📝 Start</a>
-</h3>
-
 <br>
 <br>
 
 Annin (杏仁) is a simple online editor made with [mavonEditor](https://github.com/hinesboy/mavonEditor/). 
+
+[📝 Start](https://jamcha-aa.github.io/Annin)
+
+<br>
 
 ### Feature
 - Powered with [mavonEditor](https://github.com/hinesboy/mavonEditor/)
