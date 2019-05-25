@@ -9,6 +9,8 @@
   <div id="app">
     <div id="cc">
     <p> {{ value.length }} / {{ value.trim().split(/\s+/).length }} </p>
+    </div>
+    <div id="fr">
     <text-reader @load="value = $event"></text-reader>
     </div>
     <div id="editor">
@@ -90,10 +92,16 @@ export default {
   width: 740px;
   height: 500px;
 }
+#fr {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  color: #b3b3b3;
+}
 #cc {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 0px;
+  right: 10px;
   color: #b3b3b3;
 }
 </style>
