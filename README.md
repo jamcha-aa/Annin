@@ -18,7 +18,7 @@ Annin (杏仁) is a simple online editor made with [mavonEditor](https://github.
 - Quick launch ([less than 1.5s on average](http://webpagetest.org/result/190523_GK_01980d46aa246a4b06a1fbad23bd22f7/))
 - Simple, distraction-free appearance
 - Respects your privacy
-  - Annin does not collect or store any data. Everytime you click "save" icon or `Ctrl + s`, texts are downloaded as `2019-05-01-00-00-00.md`.
+  - Annin does not collect or store any data. Everytime you click "save" icon or `Ctrl + s`, texts are downloaded as `2019-05-01 Wed 00-00-00.md`.
 
 ### Misc
 - The window of Annin is fixed with 740 x 500 for my chromebook (its resolution is only 1366 x 768).
