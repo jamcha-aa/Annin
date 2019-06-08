@@ -1,6 +1,6 @@
 {
   "name": "Annin",
-  "version": "2019.05.26",
+  "version": "2019.06.08",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -9,15 +9,15 @@
   },
   "dependencies": {
     "@branu-jp/v-drag": "^0.1.0",
-    "core-js": "^2.6.5",
+    "core-js": "^2.6.9",
     "mavon-editor": "^2.7.4",
     "moment": "^2.24.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.7.0",
-    "@vue/cli-plugin-eslint": "^3.7.0",
-    "@vue/cli-service": "^3.7.0",
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
     "babel-eslint": "^10.0.1",
     "compression-webpack-plugin": "^2.0.0",
     "eslint": "^5.16.0",
