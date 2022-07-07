@@ -11,7 +11,7 @@
     "@branu-jp/v-drag": "^0.1.0",
     "core-js": "^3.13.1",
     "mavon-editor": "^2.9.1",
-    "moment": "^2.29.1",
+    "moment": "^2.29.4",
     "npm-check-updates": "^11.5.13",
     "vue": "^2.6.12"
   },
